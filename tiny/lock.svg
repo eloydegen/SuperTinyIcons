@@ -1,5 +1,5 @@
 <svg role="img" aria-label="Lock" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="#fff">
-<rect fill="#134563" height="512" rx="15%" width="512"/>
+<rect fill="#134563" height="512" rx="80" width="512"/>
 <circle cx="256" cy="294" r="26"/>
 <path d="m262 294h-12l-13 76h38"/>
 <g fill="none" stroke="#fff">
