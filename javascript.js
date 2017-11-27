@@ -34,11 +34,11 @@ Promise.all(urls.map(url => fetch(url).then(res => res.text()))).then(all => {
   render(range.value);
 });
 
-var render = function(radius = 15){
+var render = function(radius = 80){
   console.log('Rendering!', icons);
 
   icons = icons.map(icon => {
-    return icon.replace(/rx\=\"\d{0,2}\%/, 'rx="' + radius + '%"');
+    return icon.replace(/rx\=\"\d{0,2}/, 'rx="' + radius + '"');
   });
   container.innerHTML = '<div>' + icons.join('</div><div>') + '</div>';
 }
